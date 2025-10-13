@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dkyazzentwatwa
 - 👀 I’m interested in AI, automation, & cybersecurity topics.
-- 🌱 I’m currently learning deeper subjects on AI & automation. I run an AI agency w/ my wife, and we also run the AI Flow Club!
+- 🌱 I’m currently learning deeper subjects on AI & automation. I run an AI agency w/ my wife, and we also run the [AI Flow Club](http://flow-club.techtiff.ai)!
 - 💞️ I’m looking to collaborate on any projects.
 - I'm well-versed in a little bit of everything, as you can see from my repos!
 - 📫 How to reach me: david@techtiff.ai
