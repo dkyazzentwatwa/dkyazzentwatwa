@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @dkyazzentwatwa
-- 👀 I’m interested in embedded systems and cybersecurity gadgets.
-- 🌱 I’m currently learning microcontrollers and developing with tiny computers such as SBCs. I'm creating tools for low-income and impoverished communities!
+- 👀 I’m interested in AI, automation, & cybersecurity topics.
+- 🌱 I’m currently learning deeper subjects on AI & automation. I run an AI agency w/ my wife, and we also run the AI Flow Club!
 - 💞️ I’m looking to collaborate on any projects.
-- I'm well-versed in React Native, React.js, Python, HTML, CSS, Javascript, and C++.
-- 📫 How to reach me: littlehakr@protonmail.com
+- I'm well-versed in a little bit of everything, as you can see from my repos!
+- 📫 How to reach me: david@techtiff.ai
 
 <!---
 dkyazzentwatwa/dkyazzentwatwa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
