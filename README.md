@@ -26,6 +26,7 @@
 |---------|-------------|-------|
 | [**project-starbeam**](https://github.com/dkyazzentwatwa/project-starbeam) | The Ultimate ESP32 Signal Intelligence Platform — 5 radios, HackRF integration, frequency coverage up to 6GHz. V2 coming with 10 NRFs! | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/project-starbeam?style=flat-square) |
 | [**cypher-jammer**](https://github.com/dkyazzentwatwa/cypher-jammer) | Portable ESP32 wireless pentesting device with dual NRF24L01+PA+LNA modules. Custom PCB, Flipper Zero compatible. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-jammer?style=flat-square) |
+| [**cypher-jammer-2nrf-oled**](https://github.com/dkyazzentwatwa/cypher-jammer-2nrf-oled) | Deluxe version with OLED display, 3 buttons, and LED. Enhanced UI for flexible operation. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-jammer-2nrf-oled?style=flat-square) |
 | [**cypher-cc1101-jammer**](https://github.com/dkyazzentwatwa/cypher-cc1101-jammer) | Sub-GHz RF device based on CC1101 & ESP8266 D1 Mini. RF analysis, simple replay attack capabilities. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-cc1101-jammer?style=flat-square) |
 | [**cypher-5G-deauther**](https://github.com/dkyazzentwatwa/cypher-5G-deauther) | Dual-band WiFi deauther (5GHz + 2.4GHz) using RTL8720DN with fixed Adafruit SSD1306 library compatibility. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-5G-deauther?style=flat-square) |
 | [**cypher-jammer-mini**](https://github.com/dkyazzentwatwa/cypher-jammer-mini) | Compact version of the wireless pentesting device. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-jammer-mini?style=flat-square) |
@@ -37,12 +38,25 @@
 | Project | Description | Stars |
 |---------|-------------|-------|
 | [**cypher-pn532**](https://github.com/dkyazzentwatwa/cypher-pn532) | Tiny ESP32-C3 RFID/NFC device with PN532 chip. OLED display, SD card storage, custom PCB available. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-pn532?style=flat-square) |
+| [**cypher-mfrc522**](https://github.com/dkyazzentwatwa/cypher-mfrc522) | RFID research tool using the MFRC522 module for access card analysis. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-mfrc522?style=flat-square) |
+
+### 🔌 Hardware Hacking & Analysis
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [**WireTap-32**](https://github.com/dkyazzentwatwa/WireTap-32) | ESP32 Bus Pirate — Protocol analyzer with I2C, SPI, UART, and GPIO support. OLED display, color terminal. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/WireTap-32?style=flat-square) |
 
 ### 🤖 AI-Powered Security
 
 | Project | Description | Stars |
 |---------|-------------|-------|
 | [**Cyber-Claude**](https://github.com/dkyazzentwatwa/Cyber-Claude) | AI-powered defensive cybersecurity agent built with Claude Agent SDK. OSINT, PCAP analysis, web vulnerability scanning, MITRE ATT&CK mapping. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/Cyber-Claude?style=flat-square) |
+
+### 🎓 Security Learning & CTF
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [**hack-this-site**](https://github.com/dkyazzentwatwa/hack-this-site) | Solutions and walkthroughs for HackThisSite challenges. Learn web security fundamentals. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/hack-this-site?style=flat-square) |
 
 ### 🗺️ Wardriving & Network Mapping
 
@@ -64,19 +78,7 @@
 
 **Hardware Modules**
 
-`NRF24L01+PA+LNA` · `CC1101` · `RTL8720DN` · `PN532` · `HackRF` · `SSD1306`
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dkyazzentwatwa&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dkyazzentwatwa&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
+`NRF24L01+PA+LNA` · `CC1101` · `RTL8720DN` · `PN532` · `MFRC522` · `HackRF` · `SSD1306`
 
 </div>
 
@@ -95,18 +97,27 @@
 
 ---
 
-## 📡 Frequency Coverage
+## 📡 Frequency & Protocol Coverage
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
+│  RF FREQUENCIES                                                 │
+├─────────────────────────────────────────────────────────────────┤
 │  433 MHz     │  Sub-GHz RF (CC1101)                             │
 │  868 MHz     │  European ISM Band                               │
 │  915 MHz     │  US ISM Band                                     │
 │  2.4 GHz     │  WiFi/BT/BLE/Zigbee (NRF24, ESP32)              │
 │  5 GHz       │  WiFi (RTL8720DN)                                │
 │  1-6 GHz     │  Full Spectrum (HackRF Integration)              │
-│  13.56 MHz   │  RFID/NFC (PN532)                                │
+│  13.56 MHz   │  RFID/NFC (PN532, MFRC522)                       │
 │  125 kHz     │  LF RFID                                         │
+├─────────────────────────────────────────────────────────────────┤
+│  BUS PROTOCOLS (WireTap-32)                                     │
+├─────────────────────────────────────────────────────────────────┤
+│  I2C         │  Scanning, read/write, address detection         │
+│  SPI         │  Full-duplex transfers, configurable params      │
+│  UART        │  Bidirectional communication with buffering      │
+│  GPIO        │  Digital I/O control and monitoring              │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
