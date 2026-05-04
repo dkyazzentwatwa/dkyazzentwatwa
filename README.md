@@ -68,8 +68,6 @@
 
 ## 🔎 Additional Microcontroller Projects
 
-I scanned your repositories and added a curated list of microcontroller / embedded projects that aren't currently featured above. These are grouped by platform to make the directory easier to read.
-
 ### ESP32 / ESP8266
 
 - [ESP32-Captive-Portal](https://github.com/dkyazzentwatwa/ESP32-Captive-Portal) — ESP32-based captive portal example and phishing toolkit (educational/research).
