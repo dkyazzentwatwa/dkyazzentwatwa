@@ -6,7 +6,6 @@
 
 [![Followers](https://img.shields.io/github/followers/dkyazzentwatwa?style=for-the-badge&logo=github&color=181717)](https://github.com/dkyazzentwatwa?tab=followers)
 [![Stars](https://img.shields.io/github/stars/dkyazzentwatwa?style=for-the-badge&logo=github&color=181717)](https://github.com/dkyazzentwatwa?tab=repositories)
-[![Location](https://img.shields.io/badge/Oregon-USA-blue?style=for-the-badge&logo=google-maps&logoColor=white)](https://github.com/dkyazzentwatwa)
 
 ```
 🎯 Building open-source security research tools
