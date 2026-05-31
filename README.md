@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/littlehakr-github-banner.png" alt="littlehakr hardware cybersecurity banner" width="100%" />
+
 # 🔐 CYPHER
 
 ### `wireless security researcher` · `hardware hacker` · `signal intelligence enthusiast`
@@ -43,13 +45,9 @@
 
 | Project | Description | Stars |
 |---------|-------------|-------|
-| [**WireTap-32**](https://github.com/dkyazzentwatwa/WireTap-32) | ESP32 Bus Pirate — Protocol analyzer with I2C, SPI, UART, and GPIO support. OLED display, color terminal. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatta/WireTap-32?style=flat-square)
-
-### 🤖 AI-Powered Security
-
-| Project | Description | Stars |
-|---------|-------------|-------|
-| [**Cyber-Claude**](https://github.com/dkyazzentwatwa/Cyber-Claude) | AI-powered defensive cybersecurity agent built with Claude Agent SDK. OSINT, PCAP analysis, web vulnerability scanning, MITRE mappings. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/Cyber-Claude?style=flat-square)
+| [**WireTap-32**](https://github.com/dkyazzentwatwa/WireTap-32) | ESP32 Bus Pirate — Protocol analyzer with I2C, SPI, UART, and GPIO support. OLED display, color terminal. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/WireTap-32?style=flat-square)
+| [**cypher-cube-os**](https://github.com/dkyazzentwatwa/cypher-cube-os) | Pocket touchscreen launcher for ESP32-S3 AMOLED tools, diagnostics, and field apps. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypher-cube-os?style=flat-square)
+| [**cypherbox**](https://github.com/dkyazzentwatwa/cypherbox) | Boxy multifunction ESP32 cybersecurity and networking tool. | ![Stars](https://img.shields.io/github/stars/dkyazzentwatwa/cypherbox?style=flat-square)
 
 ### 🎓 Security Learning & CTF
 
@@ -65,42 +63,54 @@
 
 ---
 
-## 🔎 Additional Microcontroller Projects
+## 🔎 Hardware & Cybersecurity Projects
 
-### ESP32 / ESP8266
+### Wireless & Network Research
 
 - [ESP32-Captive-Portal](https://github.com/dkyazzentwatwa/ESP32-Captive-Portal) — ESP32-based captive portal example and phishing toolkit (educational/research).
-- [esp32-devboard-base](https://github.com/dkyazzentwatwa/esp32-devboard-base) — Development board template and basic test harness for ESP32 devboards.
-- [esp32-iphone-shortcuts](https://github.com/dkyazzentwatwa/esp32-iphone-shortcuts) — Turn Apple Shortcuts into a simple remote for ESP32 boards.
-- [Esp32-remote-sandbox](https://github.com/dkyazzentwatwa/Esp32-remote-sandbox) — Remote control and experimentation sandbox for ESP32 projects.
-- [esp32-s3-voice-bot](https://github.com/dkyazzentwatwa/esp32-s3-voice-bot) — Voice assistant / bot prototype for ESP32-S3.
 - [ESP32-WiFi-Sniffer-SSD1306](https://github.com/dkyazzentwatwa/ESP32-WiFi-Sniffer-SSD1306) — Simple WiFi sniffer with SSD1306 OLED display.
+- [cypher-flock](https://github.com/dkyazzentwatwa/cypher-flock) — Compact ESP32 WiFi detector for passive 2.4 GHz monitoring.
+- [cypher-marauder](https://github.com/dkyazzentwatwa/cypher-marauder) — ESP32 Marauder adaptations.
+- [Open-Wifi-Scanner](https://github.com/dkyazzentwatwa/Open-Wifi-Scanner) — Scanner for nearby open WiFi networks.
+- [RFAnalyzer-cypher](https://github.com/dkyazzentwatwa/RFAnalyzer-cypher) — Android RF signal analysis with HackRF, RTL-SDR, Airspy, and HydraSDR.
+
+### Bluetooth, HID & ESP-NOW
+
 - [ESP32_BT_HID](https://github.com/dkyazzentwatwa/ESP32_BT_HID) — Bluetooth HID device support for ESP32.
 - [esp32_bt_scanner](https://github.com/dkyazzentwatwa/esp32_bt_scanner) — Bluetooth scanning & visualization using ESP32.
 - [esp32_bt_serial](https://github.com/dkyazzentwatwa/esp32_bt_serial) — Send commands to ESP32 over Bluetooth serial.
 - [cypher-chat](https://github.com/dkyazzentwatwa/cypher-chat) — ESP32 chat service powered by ESP-NOW.
+
+### Pocket Hardware Platforms
+
+- [cypher-cube-os](https://github.com/dkyazzentwatwa/cypher-cube-os) — Touchscreen ESP32-S3 AMOLED launcher for local hardware apps.
+- [cypher-puter-os](https://github.com/dkyazzentwatwa/cypher-puter-os) — Multi-app launcher for M5Stack Cardputer with Cypher apps.
+- [cypherbox-mini](https://github.com/dkyazzentwatwa/cypherbox-mini) — Smaller Cypherbox build for ESP32-C3 SuperMini.
 - [cypher-drive](https://github.com/dkyazzentwatwa/cypher-drive) — Portable wireless reconnaissance & automation using ESP32-S3.
-- [cypher-flock](https://github.com/dkyazzentwatwa/cypher-flock) — Compact ESP32 WiFi detector for passive 2.4 GHz monitoring.
-- [cypher-marauder](https://github.com/dkyazzentwatwa/cypher-marauder) — ESP32 Marauder adaptations.
-- [cypherbox](https://github.com/dkyazzentwatwa/cypherbox) — Multi-function ESP32 cybersecurity/networking tool.
+- [cardputer-game-os](https://github.com/dkyazzentwatwa/cardputer-game-os) — Game launcher and 15-game pack for the M5Stack Cardputer ADV.
+- [cardputer-games](https://github.com/dkyazzentwatwa/cardputer-games) — 50+ games for the M5Stack Cardputer.
+- [cardputer-mpc](https://github.com/dkyazzentwatwa/cardputer-mpc) — Tiny MPC-style groovebox firmware for the M5Stack Cardputer.
+- [esp32-pokedex](https://github.com/dkyazzentwatwa/esp32-pokedex) — Pokedex-style handheld app for M5Stack Cardputer.
+
+### Bus, RFID & Physical Access Labs
+
 - [WireTap-32](https://github.com/dkyazzentwatwa/WireTap-32) — Bus protocol analyzer for ESP32 (I2C/SPI/UART/GPIO).
+- [arduino-rfid-ssd1306](https://github.com/dkyazzentwatwa/arduino-rfid-ssd1306) — MFRC522 RFID + Arduino Nano + SSD1306 OLED project.
+- [arduino-duckyscripts](https://github.com/dkyazzentwatwa/arduino-duckyscripts) — DuckyScript payloads converted to Arduino.
 
-### Ports, Fixes & Drivers
+### Firmware, Ports & Drivers
 
+- [esp32-devboard-base](https://github.com/dkyazzentwatwa/esp32-devboard-base) — Development board template and basic test harness for ESP32 devboards.
+- [Esp32-remote-sandbox](https://github.com/dkyazzentwatwa/Esp32-remote-sandbox) — Remote control and experimentation sandbox for ESP32 projects.
 - [RTL8720dn-Deauther-fix](https://github.com/dkyazzentwatwa/RTL8720dn-Deauther-fix) — RTL8720dn port/fix for deauther projects (adds 5GHz support).
 - [RTL8720DN_SSD1306_FIX](https://github.com/dkyazzentwatwa/RTL8720DN_SSD1306_FIX) — Workarounds for SSD1306 displays on RTL8720DN platforms.
 - [esp_lcd_touch_axs5106l](https://github.com/dkyazzentwatwa/esp_lcd_touch_axs5106l) — Display driver / touch interface for AXS5106L.
-
-### Arduino & Small Microcontrollers
-
-- [arduino-duckyscripts](https://github.com/dkyazzentwatwa/arduino-duckyscripts) — DuckyScript payloads converted to Arduino.
-- [arduino-rfid-ssd1306](https://github.com/dkyazzentwatwa/arduino-rfid-ssd1306) — MFRC522 RFID + Arduino Nano + SSD1306 OLED project.
+- [deauther_nano](https://github.com/dkyazzentwatwa/deauther_nano) — Hardware design for a classic WiFi deauther device.
 - [minigotchi-ssd1305-neopixel](https://github.com/dkyazzentwatwa/minigotchi-ssd1305-neopixel) — Minigotchi port for SSD1305 displays with neopixel status LED.
 
 ### Raspberry Pi / Pico & SBC
 
 - [pico-gamer](https://github.com/dkyazzentwatwa/pico-gamer) — Raspberry Pi Pico retro-gaming system code & examples.
-- [kali-ink-bot](https://github.com/dkyazzentwatwa/kali-ink-bot) — Tiny Kali Linux cybersecurity pet for Raspberry Pi Zero 2 W.
 
 ### GPS, RF Mapping & Analysis
 
@@ -171,7 +181,6 @@
 <div align="center">
 
 [![Linktree](https://img.shields.io/badge/Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/littlehakr)
-[![AI Flow Club](https://img.shields.io/badge/AI%20Flow%20Club-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://flow-club.techtiff.ai)
 
 </div>
 
